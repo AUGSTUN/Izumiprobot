@@ -1,0 +1,27 @@
+import requests
+import json
+
+from requests import get
+from pyrogram import filters , Client
+from pyrogram.types import *
+from bs4 import BeautifulSoup
+from AnyaSuperBot import pbot
+
+@pbot.on_message(filters.command('watchorder'))
+def watchorderx(_,message):
+	anime =  message.text.replace(message.text.split(' ')[0], '')
+	res = requests.get(f'https://chiaki.site/?/tools/autocomplete_series&term={anime}').json()
+	data = None
+	id_ = res[0]['id']
+	res_ = requests.get(f'https://chiaki.site/?/tools/watch_order/id/{id_}').text
+	soup = BeautifulSoup(res_ , 'html.parser')
+	anime_names = soup.find_all('span' , class_='wo_title')
+	for x in anime_names:
+		data = f"{data}\n{x.text}" if data else x.text
+	message.reply_text(f'Watchorder of {anime}: \n```{data}```')
+  
+__mod_name__ = "Watch Order"
+__help__ = """
+*Watch Order*
+ ❍ `/watchorder` : Get watch order of animes
+"""
