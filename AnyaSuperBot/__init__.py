@@ -35,18 +35,18 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     )
     quit(1)
 
-ENV = bool(os.environ.get('ENV', False))
+ENV = bool(os.environ.get('ENV', True))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', None)
+    TOKEN = os.environ.get('TOKEN', "5413491390:AAFA6ojnW070AJ4GDqRC1IC8k3_mcjQa9z4")
 
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', None))
+        OWNER_ID = int(os.environ.get('OWNER_ID', 5531584953))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
-    JOIN_LOGGER = os.environ.get('JOIN_LOGGER', None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    JOIN_LOGGER = os.environ.get('JOIN_LOGGER', -1001703672408)
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "XtheAnonymous")
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
