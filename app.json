@@ -1,5 +1,5 @@
 {
-      "name": "AnyaSuperBot",
+      "name": "IzumiXprobot",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -41,7 +41,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5132611794"
+         "value": "5514985164"
       },
       "INFOPIC": {
          "description": "mmmm",
@@ -50,12 +50,12 @@
       }, 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Xelcius"
+         "value": "izumitachibana_08"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "NexusXSupport"
+         "value": "IzumiXSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -80,12 +80,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1938491135"
+         "value": ""
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": "Vc~Jfv23rh7UhAggXCldhXGsD1uWiHa~MR9JsOHQiE6Tw8qT4yjRvgB6cFNi6XAT"
+         "value": "YGzNREWZTNGc8wC1DuELXfgwMH0TPuyMqdXVdTeETJB0AwdprFgFIL2MNpPvP1ie"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -94,7 +94,7 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "5302104643 1715201164"
+         "value": ""
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
@@ -147,7 +147,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
          "required": false,
-         "value": "https://t.me/xelcius"
+         "value": "https://t.me/izumitachibana_09"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -166,7 +166,7 @@
       "MONGO_DB_URI": {
          "description": "Your Mongo DB",
          "required": false,
-         "value": "mongodb+srv://jinkun:raizel9783@cluster0.yyayi.mongodb.net/myfirstdatabase?retrywrites=true&w=majority"
+         "value": "mongodb+srv://sanemibot:itfAJ1cuMRF9NmCO@cluster0.g37l0b7.mongodb.net/?retryWrites=true&w=majority"
       },      
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
