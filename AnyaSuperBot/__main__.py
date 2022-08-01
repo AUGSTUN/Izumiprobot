@@ -62,7 +62,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕️ Add Anya Forger To Your Group ➕️",
-            url="t.me/AnyaSuperBot?startgroup=true",
+            url="t.me/MiymuraxproBot?startgroup=true",
         ),
     ],
     [
@@ -72,17 +72,17 @@ buttons = [
         ),
         InlineKeyboardButton(
             text="Network",
-            url="https://t.me/AogiriNetwork",
+            url="https://t.me/VoidxNetwork",
         ),
     ],
     [
         InlineKeyboardButton(
             text="Support",
-            url="https://t.me/NexusXSupport",
+            url="https://t.me/MiyamuraXSupport",
         ),
         InlineKeyboardButton(
-            text="Anime Region",
-            url="https://t.me/AnimeRegion",
+            text="Updates",
+            url="https://t.me/MiyamuraXupdates",
         ),
     ],
 ]
