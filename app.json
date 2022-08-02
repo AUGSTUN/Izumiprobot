@@ -21,7 +21,7 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5461378728:AAEA_p_mDt9byI02gc2pXlHjmld_c36uzE8"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
@@ -36,7 +36,7 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": ""
+         "value": "postgres://ugotopbv:XDO5qcrshD6GUP9y8aepELw-0booS77n@heffalump.db.elephantsql.com/ugotopbv"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
@@ -50,12 +50,12 @@
       }, 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "izumitachibana_08"
+         "value": "izumixtachibana"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "IzumiXSupport"
+         "value": "miyamuraXSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -147,7 +147,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
          "required": false,
-         "value": "https://t.me/izumitachibana_09"
+         "value": "https://t.me/izumixtachibana"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
