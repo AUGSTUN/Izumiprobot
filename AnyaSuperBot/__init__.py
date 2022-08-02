@@ -84,7 +84,7 @@ if ENV:
     API_ID = os.environ.get('API_ID', 4665778)
     API_HASH = os.environ.get('API_HASH', "10e3ed833b0d09699973420d45359409")
     DB_URI = os.environ.get('db_uri','postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
-    SQLALCHEMY_DATABASE_URI = os.environ.get('postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
+   # SQLALCHEMY_DATABASE_URI = os.environ.get('postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "rss").split()
