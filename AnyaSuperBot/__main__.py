@@ -67,21 +67,21 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Chat",
-            url="t.me/AnimeSerge",
+            text="•Owner•",
+            url="t.me/izumixtachibana",
         ),
         InlineKeyboardButton(
-            text="Network",
+            text="•Network•",
             url="https://t.me/VoidxNetwork",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Support",
+            text="•Support•",
             url="https://t.me/MiyamuraXSupport",
         ),
         InlineKeyboardButton(
-            text="Updates",
+            text="•Updates•",
             url="https://t.me/MiyamuraXupdates",
         ),
     ],
