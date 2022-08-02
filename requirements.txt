@@ -33,7 +33,7 @@ geopy
 youtube_search
 youtube-dl
 psutil
-aiohttp>=2.2.5
+aiohttp
 Pillow>=4.2.0
 CurrencyConverter
 google_trans_new
