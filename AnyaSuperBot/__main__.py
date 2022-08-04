@@ -61,7 +61,7 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Anya Forger To Your Group ➕️",
+            text=" Add Izumi To Your Group ",
             url="t.me/MiymuraxproBot?startgroup=true",
         ),
     ],
@@ -90,7 +90,7 @@ buttons = [
 
                     
 HELP_STRINGS = """
-Hey there! Myself [Anya Forger](https://telegra.ph/file/9e9e1112a16894e7998cf.jpg).
+Hey there! Myself [Iȥυɱι Mιყαɱυɾα](https://telegra.ph/file/01af8406a5015ae3faf50.jpg).
 Have a look at the following for an idea of some of the things I can help you with.
 *Main* commands available:
  ➛ /help: PM's you this message.
