@@ -81,9 +81,9 @@ if ENV:
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
-    API_ID = os.environ.get('API_ID', 4665778)
-    API_HASH = os.environ.get('API_HASH', "10e3ed833b0d09699973420d45359409")
-    DB_URI = os.environ.get('db_uri','postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
+    API_ID = os.environ.get('API_ID', 17789594)
+    API_HASH = os.environ.get('API_HASH', "ab1b831edb2bd32905d6572ce621f678")
+    DB_URI = os.environ.get('db_uri','postgres://ugotopbv:XDO5qcrshD6GUP9y8aepELw-0booS77n@heffalump.db.elephantsql.com/ugotopbv')
    # SQLALCHEMY_DATABASE_URI = os.environ.get('postgres://rzgeatqi:CLn2r-lMpIzyKF9gRv5oPPHwLZRL1U-e@suleiman.db.elephantsql.com/rzgeatqi')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
@@ -92,13 +92,13 @@ if ENV:
     STRICT_GBAN = bool(os.environ.get('STRICT_GBAN', True))
     WORKERS = int(os.environ.get('WORKERS', 8))
     BAN_STICKER = os.environ.get('BAN_STICKER',
-                                 'CAADAgADOwADPPEcAXkko5EB3YGYAg')
+                                 'CAACAgUAAx0CZn0c8gADTmLyMAd0PloLkYUFBsA0SclAvRWdAAK4BgAC7U-pVv4yCFx9nbJeKQQ')
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', 'True')
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     AI_API_KEY = os.environ.get('AI_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
-    SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', "@NexusXSupport")
+    SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', "@MiyamuraXSupport")
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
     SPAMWATCH_API = os.environ.get('SPAMWATCH_API', None)
     REPOSITORY = os.environ.get("REPOSITORY", "")
@@ -108,16 +108,16 @@ if ENV:
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "lightYagami")
+    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "gojosatoru")
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
-    BOT_NAME = os.environ.get("BOT_NAME", 'Anya') # Name Of your Bot.4
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnyaSuperbot") # Bot Username
+    BOT_NAME = os.environ.get("BOT_NAME", 'Izumi') # Name Of your Bot.4
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "MiyamuraXproBot") # Bot Username
     OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", "") # From:- https://openweathermap.org/api
     LOG_GROUP_ID = os.environ.get('LOG_GROUP_ID', '-1001733372611')
-    BOT_ID = 5413491390
+    BOT_ID = 5461378728
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", 'mongodb+srv://ok:lol@cluster1.udhzs7r.mongodb.net/?retryWrites=true&w=majority')
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", 'mongodb+srv://izumi:<password>@izumi.5r4tatu.mongodb.net/?retryWrites=true&w=majority')
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None) # From:- https://www.remove.bg/ 
     STRING_SEESSOIN = os.environ.get("STRING_SEESSOIN", None)
 
