@@ -7,9 +7,9 @@ from telethon import events, Button
 from telegram import __version__ as telever
 from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
-from KaizuryuBot.events import register
-from KaizuryuBot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
-from KaizuryuBot import ALIVE_PIC_URL
+from AnyaSuperBot .events import register
+from AnyaSuperBot  import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
+from AnyaSuperBot  import ALIVE_PIC_URL
 
 
 PHOTO = "https://telegra.ph/file/a245a547b0939797c4489.jpg"
@@ -18,7 +18,7 @@ PHOTO = "https://telegra.ph/file/a245a547b0939797c4489.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
     TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ  Iȥυɱι Mιყαɱυɾα**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @IzumiXTachibana ** \n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @Utahime_Simp ** \n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
