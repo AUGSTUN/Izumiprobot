@@ -38,19 +38,19 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get('ENV', True))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', "5413491390:AAFA6ojnW070AJ4GDqRC1IC8k3_mcjQa9z4")
+    TOKEN = os.environ.get('TOKEN', "5461378728:AAEA_p_mDt9byI02gc2pXlHjmld_c36uzE8")
 
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', 5531584953))
+        OWNER_ID = int(os.environ.get('OWNER_ID', 5320639253))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
     JOIN_LOGGER = os.environ.get('JOIN_LOGGER', -1001703672408)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "XtheAnonymous")
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Utahime_Simp")
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "886906981").split())
     except ValueError:
         raise Exception(
             "Your sudo or dev users list does not contain valid integers.")
