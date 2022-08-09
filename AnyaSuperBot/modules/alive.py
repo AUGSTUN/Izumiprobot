@@ -1,17 +1,35 @@
 #Owned By @TheKaizuryu & @Xelcius
+import os
+import re
+import random
+from platform import python_version as kontol
+from telethon import events, Button
+from telegram import __version__ as telever
+from telethon import __version__ as tlhver
+from pyrogram import __version__ as pyrover
+from KaizuryuBot.events import register
+from KaizuryuBot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
+from KaizuryuBot import ALIVE_PIC_URL
 
-from telethon import events, Button, custom
-import re, os
-from AnyaSuperBot.events import register
-from AnyaSuperBot import telethn as tbot
-from AnyaSuperBot import telethn as tgbot
-PHOTO = "https://telegra.ph/file/d9c46e3db8952c020256b.jpg"
+
+PHOTO = "https://telegra.ph/file/a245a547b0939797c4489.jpg"
+
+
 @register(pattern=("/alive"))
 async def awake(event):
-  Saber = f"**剣 Hii {event.sender.first_name} I'm Saber Sword** \n\n"
-  Saber += "**剣 I'm Property OF @AogiriNetwork**\n\n"
-  Saber += "**剣 Anya Forger 剣: Sword Master Version **\n\n"
-  Saber += "**剣 Creator:** [U N K N O W N](t.me/XTheAnonymous)\n\n"
-  Saber += "**剣 python-Telegram-Bot: 13.11**\n\n"
-  BUTTON = [[Button.url("Support", "https://t.me/NexusXSupport"), Button.url("Updates", "https://t.me/AogiriNetwork")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=Saber,  buttons=BUTTON)
+    TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ  Iȥυɱι Mιყαɱυɾα**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : @IzumiXTachibana ** \n\n"
+    TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
+    TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
+    TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
+    BUTTON = [
+        [
+            Button.url("ʜᴇʟᴘ", f"https://t.me/MiyamuraXproBot?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ", f"https://t.me/MiyamuraXsupport"),
+        ]
+    ]
+    ran = PHOTO
+    await tbot.send_file(event.chat_id, ran, caption=TEXT, buttons=BUTTON)
+
+
+__mod_name__ = "Aʟɪᴠᴇ"
