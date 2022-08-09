@@ -9,7 +9,6 @@ from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
 from AnyaSuperBot .events import register
 from AnyaSuperBot  import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
-from AnyaSuperBot  import ALIVE_PIC_URL
 
 
 PHOTO = "https://telegra.ph/file/a245a547b0939797c4489.jpg"
