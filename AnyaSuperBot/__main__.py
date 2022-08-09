@@ -62,7 +62,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text=" Add Izumi To Your Group ",
-            url="t.me/MiymuraxproBot?startgroup=true",
+            url="t.me/MiyamuraxproBot?startgroup=true",
         ),
     ],
     [
